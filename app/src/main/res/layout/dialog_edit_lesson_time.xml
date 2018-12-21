@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/dialog_padding">
+
+    <TextView
+        android:id="@+id/lb_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/label_input_margin_bottom"
+        android:labelFor="@+id/input_start"
+        android:text="@string/lb_start"/>
+
+    <EditText
+        android:id="@+id/input_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="time"/>
+
+    <TextView
+        android:id="@+id/lb_end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/form_group_margin"
+        android:layout_marginBottom="@dimen/label_input_margin_bottom"
+        android:labelFor="@+id/input_end"
+        android:text="@string/lb_end"/>
+
+    <EditText
+        android:id="@+id/input_end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="time"/>
+
+    <TextView
+        android:id="@+id/tv_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="@dimen/form_group_margin"
+        android:text=""
+        android:textColor="@color/colorRed"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/form_group_margin"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/bt_save"/>
+
+        <Button
+            android:id="@+id/bt_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/bt_cancel"/>
+    </LinearLayout>
+
+</LinearLayout>

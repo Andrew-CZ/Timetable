@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorRed">#ff0000</color>
+    <color name="textGray">#808080</color>
+    <color name="bg_item_pressed">#ccc</color>
+    <color name="colorTransparent">#0000</color>
+    <color name="default_font">#000000</color>
+    <color name="default_header">#ffffff</color>
+    <color name="default_header_separator">#000000</color>
+    <color name="default_cell_empty">#fcfcfc</color>
+    <color name="default_cell_lesson">#ddddff</color>
+    <color name="default_cell_lecture">#ffdddd</color>
+
+    <string-array name="color_choices">
+        <item>#f44336</item>
+        <item>#e91e63</item>
+        <item>#9c27b0</item>
+        <item>#673ab7</item>
+        <item>#3f51b5</item>
+        <item>#2196f3</item>
+        <item>#03a9f4</item>
+        <item>#00bcd4</item>
+        <item>#009688</item>
+        <item>#4caf50</item>
+        <item>#8bc34a</item>
+        <item>#cddc39</item>
+        <item>#ffeb3b</item>
+        <item>#ffc107</item>
+        <item>#ff9800</item>
+        <item>#ff5722</item>
+        <item>#795548</item>
+        <item>#607d8b</item>
+        <item>#3f515a</item>
+        <item>#000000</item>
+        <item>#333333</item>
+        <item>#666666</item>
+        <item>#999999</item>
+        <item>#cccccc</item>
+        <item>#ffffff</item>
+        <item>#ddddff</item>
+        <item>#ffdddd</item>
+    </string-array>
+</resources>

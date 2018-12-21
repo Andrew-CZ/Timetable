@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_timetable"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="@string/menu_timetable"
+            android:checked="true" />
+
+        <item
+            android:id="@+id/nav_subjects"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="@string/menu_subjects" />
+
+        <item
+            android:id="@+id/nav_lesson_times"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="@string/menu_lesson_times" />
+
+        <item
+            android:id="@+id/nav_preferences"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="@string/menu_preferences" />
+
+        <item
+            android:id="@+id/nav_reset_preferences"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="@string/menu_reset_preferences" />
+    </group>
+</menu>

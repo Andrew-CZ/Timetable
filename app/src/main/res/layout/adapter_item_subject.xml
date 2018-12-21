@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center_vertical"
+              android:background="@drawable/recycler_view_item_bg"
+              android:minHeight="@dimen/recycler_view_item_min_height"
+              android:paddingTop="@dimen/recycler_view_item_padding_vertical"
+              android:paddingBottom="@dimen/recycler_view_item_padding_vertical"
+              android:paddingLeft="@dimen/recycler_view_item_padding_horizontal"
+              android:paddingRight="@dimen/recycler_view_item_padding_horizontal">
+
+    <TextView
+        android:id="@+id/lb_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text=""
+        android:textSize="18sp"/>
+</LinearLayout>

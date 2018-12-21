@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="content_padding">8dp</dimen>
+    <dimen name="recycler_view_item_padding_vertical">8dp</dimen>
+    <dimen name="recycler_view_item_padding_horizontal">16dp</dimen>
+    <dimen name="recycler_view_item_min_height">64dp</dimen>
+    <dimen name="divider_list_vertical">5dp</dimen>
+    <dimen name="label_input_spacing">16dp</dimen>
+    <dimen name="dialog_padding">16dp</dimen>
+    <dimen name="label_input_margin_bottom">8dp</dimen>
+    <dimen name="form_group_margin">16dp</dimen>
+    <dimen name="table_cell_min_height">100dp</dimen>
+    <dimen name="table_cell_min_width">150dp</dimen>
+    <dimen name="table_header_row_min_width">100dp</dimen>
+    <dimen name="table_cell_padding">8dp</dimen>
+</resources>

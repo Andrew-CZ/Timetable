@@ -1,0 +1,53 @@
+<android.support.v7.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.kizitonwose.colorpreferencecompat.ColorPreferenceCompat
+        android:key="color_header"
+        android:title="@string/color_header"
+        app:colorChoices="@array/color_choices"
+        android:defaultValue="@color/default_header" />
+
+    <com.kizitonwose.colorpreferencecompat.ColorPreferenceCompat
+        android:key="color_header_font"
+        android:title="@string/color_header_font"
+        app:colorChoices="@array/color_choices"
+        android:defaultValue="@color/default_font" />
+
+    <com.kizitonwose.colorpreferencecompat.ColorPreferenceCompat
+        android:key="color_header_separator"
+        android:title="@string/color_header_separator"
+        app:colorChoices="@array/color_choices"
+        android:defaultValue="@color/default_header_separator" />
+
+    <com.kizitonwose.colorpreferencecompat.ColorPreferenceCompat
+        android:key="color_cell_empty"
+        android:title="@string/color_cell_empty"
+        app:colorChoices="@array/color_choices"
+        android:defaultValue="@color/default_cell_empty" />
+
+    <com.kizitonwose.colorpreferencecompat.ColorPreferenceCompat
+        android:key="color_cell_lesson"
+        android:title="@string/color_cell_lesson"
+        app:colorChoices="@array/color_choices"
+        android:defaultValue="@color/default_cell_lesson" />
+
+    <com.kizitonwose.colorpreferencecompat.ColorPreferenceCompat
+        android:key="color_cell_lesson_font"
+        android:title="@string/color_cell_lesson_font"
+        app:colorChoices="@array/color_choices"
+        android:defaultValue="@color/default_font" />
+
+    <com.kizitonwose.colorpreferencecompat.ColorPreferenceCompat
+        android:key="color_cell_lecture"
+        android:title="@string/color_cell_lecture"
+        app:colorChoices="@array/color_choices"
+        android:defaultValue="@color/default_cell_lecture" />
+
+    <com.kizitonwose.colorpreferencecompat.ColorPreferenceCompat
+        android:key="color_cell_lecture_font"
+        android:title="@string/color_cell_lecture_font"
+        app:colorChoices="@array/color_choices"
+        android:defaultValue="@color/default_font" />
+
+</android.support.v7.preference.PreferenceScreen>
